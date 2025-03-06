@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Figtree, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-export const figtree = Figtree({
+const figtree = Figtree({
   subsets: ["latin"],
   display: "swap",
 });
