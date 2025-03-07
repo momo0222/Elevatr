@@ -1,3 +1,5 @@
+
+
 import { Button } from "../ui/button";
 import { ArrowRight } from "lucide-react";
 
@@ -39,6 +41,7 @@ const Hero = ({
         alt: "Hero image with pixelated computers"
     }
 }: Partial<HeroProps>) => {
+
     return(
         <section className="py-32">
             <div className="container">
@@ -63,11 +66,11 @@ const Hero = ({
                             
                         </div>
                     </div>
-                    <img 
-                    src={image.src}
-                    alt={image.alt}
-                    className="max-h-96 w-auto rounded-md object-cover"
-                     />
+                    <div className="flex justify-center">
+                            <img src={image.src}
+                            alt={image.alt}
+                            className="object-cover w-full max-w-sm rounded-lg sm:h-96 lg:animate-[bounce_2s_ease-in-out_infinite]"/>
+                    </div>
                 </div>
             
             </div>

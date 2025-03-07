@@ -61,7 +61,7 @@ const Navbar1 = ({
     title: "Elevatr",
   },
   menu = [
-    { title: "Home", url: "#" },
+    { title: "Home", url: "/" },
     {
       title: "Classes",
       url: "#",
@@ -125,7 +125,7 @@ const Navbar1 = ({
     },
     {
       title: "About us",
-      url: "#",
+      url: "/about",
     },
     {
       title: "Blog",
