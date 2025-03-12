@@ -1,5 +1,7 @@
 import { Avatar,  AvatarFallback, AvatarImage} from "@radix-ui/react-avatar";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { Badge } from "../ui/badge";
+import { ArrowUpRight } from "lucide-react";
 
 interface TeamMember{
     id: string;
@@ -76,7 +78,12 @@ const Team = ({
     return(
         <section className="py-32">
             <div className="container flex flex-col items-center justify-center">
-                <p className="semibold">{subheading}</p>
+                <a className="semibold" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfh1-qo324pkNcSD0LE7yEKMmgqz0MxSAEA55CT40dmY6-zRQ/viewform?usp=header">
+                    <Badge variant="outline">
+                        <span className="text-md semibold">✨ {subheading}</span>
+                    <ArrowUpRight className="ml-2 size-4" />
+                    </Badge>
+                </a>
                 <h2 className="my-6 text-pretty text-2xl font-bold lg:text-4xl">
                     {heading}
                 </h2>

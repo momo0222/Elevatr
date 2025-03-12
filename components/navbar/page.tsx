@@ -67,28 +67,9 @@ const Navbar1 = ({
       url: "#",
       items: [
         {
-          title: "Blog",
-          description: "The latest industry news, updates, and info",
+          title: "Web Development",
+          description: "Learn the basics of HTML, CSS and Javascript",
           icon: <Book className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "Company",
-          description: "Our mission is to innovate and empower the world",
-          icon: <Trees className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "Careers",
-          description: "Browse job listing and discover our workspace",
-          icon: <Sunset className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "Support",
-          description:
-            "Get in touch with our support team or visit our community forums",
-          icon: <Zap className="size-5 shrink-0" />,
           url: "#",
         },
       ],
@@ -98,27 +79,9 @@ const Navbar1 = ({
       url: "#",
       items: [
         {
-          title: "Lesson 1",
-          description: "Get all the answers you need right here",
+          title: "TBD",
+          description: "TBD",
           icon: <Zap className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "Lesson 2",
-          description: "We are here to help you with any questions you have",
-          icon: <Sunset className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "Status",
-          description: "Check the current status of our services and APIs",
-          icon: <Trees className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "Terms of Service",
-          description: "Our terms and conditions for using our services",
-          icon: <Book className="size-5 shrink-0" />,
           url: "#",
         },
       ],
@@ -127,10 +90,10 @@ const Navbar1 = ({
       title: "About us",
       url: "/about",
     },
-    {
-      title: "Blog",
-      url: "#",
-    },
+    // {
+    //   title: "Blog",
+    //   url: "#",
+    // },
   ],
   auth = {
     login: { text: "Log in", url: "#" },
