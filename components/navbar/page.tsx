@@ -64,13 +64,13 @@ const Navbar1 = ({
     { title: "Home", url: "/" },
     {
       title: "Classes",
-      url: "#",
+      url: "/classes",
       items: [
         {
-          title: "Web Development",
-          description: "Learn the basics of HTML, CSS and Javascript",
+          title: "Full-Stack Workshop",
+          description: "Learn how to create a website with HTML, CSS, JS and Python",
           icon: <Book className="size-5 shrink-0" />,
-          url: "#",
+          url: "/classes",
         },
       ],
     },
